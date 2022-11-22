@@ -67,6 +67,8 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
+  position: relative;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -190,10 +192,10 @@ h1 {
 #app-store-button {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   animation: rainbow-button 2s infinite;
-  background-color: #00f8ff;
+  background-color: #0400ff;
   border-radius: 18px;
   box-shadow: 0 5px 15px rgba(0, 248, 255, 0.4),
-    0 10px 30px rgba(37, 41, 46, 0.2);
+    0 10px 30px rgb(190, 215, 245);
   cursor: pointer;
   display: block;
   height: 63px;
@@ -211,7 +213,7 @@ h1 {
 }
 
 #app-store-button div {
-  background: url(app-store-button.svg) #000000 center no-repeat;
+  background: url(app-store-button.svg) #ffffff center no-repeat;
   border-radius: 15.5px;
   height: 58px;
   left: 2.5px;
@@ -443,10 +445,11 @@ p#enter-label {
 
 footer {
   margin: 0 auto;
-  max-width: 420px;
-  padding: 0 24px 72px 24px;
   position: relative;
   text-align: center;
+  max-width: 1400px;
+  padding: 0 24px;
+  top: 30px;
 }
 
 h3 {
@@ -502,28 +505,28 @@ h3:active {
 @keyframes rainbow-button {
   0%,
   100% {
-    background-color: #00f8ff;
-    box-shadow: 0 5px 15px rgba(0, 248, 255, 0.4),
+    background-color: #0004ff;
+    box-shadow: 0 5px 15px rgb(255, 0, 0),
       0 10px 30px rgba(37, 41, 46, 0.2);
   }
   20% {
-    background-color: #a4ff00;
-    box-shadow: 0 5px 15px rgba(164, 255, 0, 0.4),
+    background-color: #ff0000;
+    box-shadow: 0 5px 15px rgb(0, 4, 255),
       0 10px 30px rgba(37, 41, 46, 0.2);
   }
   40% {
-    background-color: #f7275e;
-    box-shadow: 0 5px 15px rgba(247, 39, 94, 0.4),
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgb(255, 0, 0),
       0 10px 30px rgba(37, 41, 46, 0.2);
   }
   60% {
-    background-color: #ffd300;
-    box-shadow: 0 5px 15px rgba(255, 211, 0, 0.4),
+    background-color: #0400fdea;
+    box-shadow: 0 5px 15px rgb(255, 255, 255),
       0 10px 30px rgba(37, 41, 46, 0.2);
   }
   80% {
-    background-color: #ff8a00;
-    box-shadow: 0 5px 15px rgba(255, 138, 0, 0.4),
+    background-color: #ff0000;
+    box-shadow: 0 5px 15px rgb(0, 26, 255),
       0 10px 30px rgba(37, 41, 46, 0.2);
   }
 }
